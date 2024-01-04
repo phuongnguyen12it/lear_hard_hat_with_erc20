@@ -3,7 +3,7 @@ async function main() {
   
     console.log("Deploying contracts with the account:", deployer.address);
   
-    const token = await ethers.deployContract("Floppy");
+    const token = await ethers.deployContract("EVEREST");
   
     console.log("Token address:", await token.getAddress());
   }
